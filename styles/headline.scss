@@ -1,6 +1,4 @@
 .headline {
-  width: 100%;
-
   @include for-large-up {
     width: 1140px;
     margin: auto;
@@ -31,7 +29,7 @@
     }
 
     @include for-large-up {
-      font-weight: bold;
+      font-weight: 700;
       font-size: 80px;
       line-height: 78px;
       letter-spacing: -0.5px;
