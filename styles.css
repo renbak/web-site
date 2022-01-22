@@ -634,7 +634,7 @@
       margin: 76px 25px 77px 126px;
       display: flex; } }
   .headline__content {
-    margin: 35px 15px 33px 15px; }
+    margin: 0px 15px 33px 15px; }
     @media screen and (min-width: 1400px) {
       .headline__content {
         margin: 0;
