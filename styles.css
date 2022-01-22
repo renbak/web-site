@@ -630,7 +630,7 @@
   flex-direction: column; }
   @media screen and (min-width: 1400px) {
     .headline {
-      width: 1400px;
+      width: 1140px;
       margin: 76px 25px 77px 126px;
       display: flex; } }
   .headline__content {
