@@ -631,10 +631,11 @@
   @media screen and (min-width: 1400px) {
     .headline {
       width: 1140px;
-      margin: 76px 25px 77px 126px;
+      margin: 76px 25px 0 126px;
       display: flex; } }
   .headline__content {
-    margin: 0px 15px 33px 15px; }
+    margin: 0px 15px 33px 15px;
+    height: 524px; }
     @media screen and (min-width: 1400px) {
       .headline__content {
         margin: 0;
