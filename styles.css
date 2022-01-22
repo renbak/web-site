@@ -23,14 +23,12 @@
       background-color: #f3c6bd;
       height: 62px;
       display: flex;
-      margin: auto;
-      padding-left: 0; } }
+      margin: auto; } }
   .header__button {
     display: none; }
     @media screen and (min-width: 1400px) {
       .header__button {
-        display: block;
-        margin-top: -10px; } }
+        display: block; } }
   .header__menu-button {
     width: 58px;
     border: none;
@@ -53,7 +51,7 @@
     .navigation {
       display: block;
       margin-left: auto;
-      margin-top: -20px; } }
+      margin-top: 7px; } }
 
 .nav-list__item {
   text-decoration: none;

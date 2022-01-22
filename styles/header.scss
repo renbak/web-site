@@ -26,7 +26,6 @@
     height: 62px;
     display: flex;
     margin: auto;
-    padding-left: 0;
   }
 
   &__button {
@@ -34,7 +33,6 @@
 
     @include for-large-up {
       display: block;
-      margin-top: -10px;
     }
   }
 
@@ -65,7 +63,7 @@
   @include for-large-up {
     display: block;
     margin-left: auto;
-    margin-top: -20px;
+    margin-top: 7px;
   }
 }
 
