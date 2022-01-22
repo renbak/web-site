@@ -4,10 +4,7 @@
   @media screen and (min-width: 1400px) {
     .top-section {
       margin: auto;
-      position: relative;
-      background-color: #f3c6bd;
       width: 1400px;
-      height: 710px;
       padding-top: 39px; } }
 
 .header {
@@ -612,69 +609,6 @@
   border-radius: 2px;
   border: none; }
 
-@media screen and (min-width: 1400px) {
-  .headline {
-    width: 1140px;
-    margin: auto; } }
-.headline__content {
-  margin: 35px 15px 33px 15px; }
-.headline__title {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  letter-spacing: -0.3125px;
-  margin-top: 0;
-  margin-bottom: 0; }
-  @media screen and (min-width: 1400px) {
-    .headline__title {
-      font-weight: 700;
-      font-size: 80px;
-      line-height: 78px;
-      letter-spacing: -0.5px;
-      width: 764px;
-      top: 177px;
-      left: 126px;
-      z-index: 1;
-      margin: 0;
-      padding: 0; } }
-  @media screen and (min-width: 1400px) {
-    .headline__title {
-      font-weight: 700;
-      font-size: 80px;
-      line-height: 78px;
-      letter-spacing: -0.5px;
-      width: 764px;
-      position: absolute;
-      top: 177px;
-      left: 126px;
-      z-index: 1;
-      margin: 0;
-      padding: 0; } }
-.headline__description {
-  margin-top: 24px;
-  margin-bottom: 0;
-  font-size: 24px;
-  line-height: 34px; }
-  @media screen and (min-width: 1400px) {
-    .headline__description {
-      width: 456px;
-      position: absolute;
-      top: 376px;
-      left: 130px;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 34px;
-      margin: 0;
-      padding: 0; } }
-.headline__buttons {
-  margin-top: 30px; }
-  @media screen and (min-width: 1400px) {
-    .headline__buttons {
-      display: flex;
-      position: absolute;
-      top: 536px;
-      left: 130px;
-      margin-top: 0; } }
 .headline__button {
   width: 158px;
   height: 48px;
@@ -688,26 +622,70 @@
   line-height: 13px;
   font-weight: 700;
   border-radius: 2px;
-  border: none;
-  margin-top: 15px; }
+  border: none; }
+
+.headline {
+  background-color: #f3c6bd;
+  width: 320px;
+  padding: 35px 15px 36px 15px; }
   @media screen and (min-width: 1400px) {
-    .headline__button {
-      margin-left: 10px;
-      margin-top: 0; } }
-.headline__bunner {
-  width: 100%;
-  margin-bottom: 36px; }
-  @media screen and (min-width: 1400px) {
-    .headline__bunner {
-      margin: 0;
-      width: 796px;
-      height: 448px;
-      position: absolute;
-      top: 185px;
-      right: 25px; } }
-@media screen and (max-width: 1399px) {
-  .headline__buttons-action {
-    width: 100%; } }
+    .headline {
+      width: 1400px;
+      padding: 76px 25px 77px 126px;
+      display: flex; } }
+  .headline__content {
+    z-index: 1; }
+  .headline__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px; }
+    @media screen and (min-width: 1400px) {
+      .headline__title {
+        margin-bottom: 34px;
+        width: 754px;
+        font-size: 80px;
+        line-height: 78px;
+        letter-spacing: -0.5px; } }
+  .headline__description {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 34px; }
+    @media screen and (min-width: 1400px) {
+      .headline__description {
+        width: 456px;
+        margin-bottom: 58px; } }
+  .headline__buttons {
+    margin-bottom: 33px; }
+    @media screen and (min-width: 1400px) {
+      .headline__buttons {
+        margin-bottom: 49px; } }
+    .headline__buttons-action {
+      width: 100%;
+      margin-bottom: 15px; }
+      @media screen and (min-width: 1400px) {
+        .headline__buttons-action {
+          width: 160px;
+          margin: 0;
+          margin-right: 10px; } }
+      .headline__buttons-action:last-child {
+        margin-bottom: 0; }
+        @media screen and (min-width: 1400px) {
+          .headline__buttons-action:last-child {
+            margin-right: 0; } }
+  .headline__bunner {
+    width: 320px;
+    margin-left: -15px;
+    margin-right: -15px; }
+    @media screen and (min-width: 1400px) {
+      .headline__bunner {
+        width: 796px;
+        position: absolute;
+        left: 595px;
+        top: 185px; } }
 
 .tips {
   margin-top: 9px; }
