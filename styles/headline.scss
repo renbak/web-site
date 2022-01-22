@@ -1,16 +1,21 @@
 .headline {
   background-color: #f3c6bd;
-  width: 320px;
-  padding: 35px 15px 36px 15px;
+  display: flex;
+  flex-direction: column;
 
   @include for-large-up {
     width: 1400px;
-    padding: 76px 25px 77px 126px;
+    margin: 76px 25px 77px 126px;
     display: flex;
   }
 
   &__content {
-    z-index: 1;
+    margin: 35px 15px 33px 15px;
+
+    @include for-large-up {
+      margin: 0;
+      z-index: 1;
+    }
   }
 
   &__title {
@@ -43,8 +48,6 @@
   }
 
   &__buttons {
-    margin-bottom: 33px;
-
     @include for-large-up {
       margin-bottom: 49px;
     }
@@ -69,14 +72,13 @@
   }
 
   &__bunner {
-    width: 320px;
-    margin-left: -15px;
-    margin-right: -15px;
+    width: 100%;
+    margin-bottom: 36px;
 
     @include for-large-up {
       width: 796px;
       position: absolute;
-      left: 595px;
+      left: 579px;
       top: 185px;
     }
   }
