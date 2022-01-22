@@ -80,7 +80,7 @@
     margin-right: 13px; }
     @media screen and (min-width: 1400px) {
       .logo__image {
-        width: 65px;
+        width: 60px;
         height: 60px;
         margin-right: 15px; } }
   .logo__name {
@@ -574,13 +574,17 @@
         margin-right: 30px;
         margin-bottom: 0; } }
     .audience__menu-items-image-developers {
-      width: 138px; }
+      width: 138px;
+      margin-top: 22px; }
     .audience__menu-items-image-entertainment {
-      width: 142px; }
+      width: 142px;
+      margin-top: 22px; }
     .audience__menu-items-image-athletes {
-      width: 160px; }
+      width: 160px;
+      margin-top: 22px; }
     .audience__menu-items-image-creators {
-      width: 119px; }
+      width: 119px;
+      margin-top: 22px; }
     .audience__menu-items-text {
       font-weight: 700;
       font-size: 22px;
