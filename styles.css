@@ -639,7 +639,7 @@
       .headline__content {
         margin: 0;
         z-index: 1;
-        height: 540px; } }
+        height: 560px; } }
   .headline__title {
     margin: 0;
     margin-bottom: 24px;
@@ -686,8 +686,8 @@
       .headline__bunner {
         width: 796px;
         position: absolute;
-        left: 579px;
-        top: 185px; } }
+        left: 574px;
+        top: 180px; } }
 
 .tips {
   margin-top: 9px; }
