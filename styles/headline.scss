@@ -11,11 +11,11 @@
 
   &__content {
     margin: 0px 15px 33px 15px;
-    height: 524px;
 
     @include for-large-up {
       margin: 0;
       z-index: 1;
+      height: 540px;
     }
   }
 
