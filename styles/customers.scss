@@ -3,14 +3,13 @@
   flex-direction: column;
 
   @include for-large-up {
-    display: flex;
+    flex-direction: row;
     width: 1140px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
   }
 
   &__row {
@@ -30,8 +29,8 @@
   &__item {
     width: 107px;
     height: 94px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid $border-line-color;
+    border-right: 1px solid $border-line-color;
     display: flex;
     justify-content: center;
     align-items: center;

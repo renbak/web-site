@@ -115,7 +115,7 @@
         inset 0px 1px 0px rgba(255, 255, 255, 0.1);
       border-radius: 8px;
       margin-bottom: 15px;
-      background-color: #ffffff;
+      background-color: $white-color;
 
       @include for-large-up {
         width: 262px;
@@ -156,8 +156,8 @@
       }
 
       &:hover {
-        background-color: #3141c5;
-        color: #ffffff;
+        background-color: $blue-color;
+        color: $white-color;
       }
       &:last-child {
         margin-bottom: 0;

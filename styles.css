@@ -105,10 +105,8 @@
   @media screen and (min-width: 1400px) {
     .about {
       display: flex;
-      width: 100%;
       padding: 77px 131px 76px 130px;
-      justify-content: space-between;
-      background: #f4f5f7; } }
+      justify-content: space-between; } }
 
 @media screen and (min-width: 1400px) {
   .article {
@@ -134,14 +132,13 @@
   flex-direction: column; }
   @media screen and (min-width: 1400px) {
     .customers {
-      display: flex;
+      flex-direction: row;
       width: 1140px;
       justify-content: space-between;
       align-items: center;
       margin: auto;
       padding-top: 30px;
-      padding-bottom: 106px;
-      flex-direction: row; } }
+      padding-bottom: 106px; } }
   .customers__row {
     display: flex; }
     @media screen and (min-width: 1400px) {

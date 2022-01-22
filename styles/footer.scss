@@ -65,7 +65,7 @@
     margin-top: 31px;
     padding-bottom: 40px;
     justify-content: center;
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 1px solid $border-line-color;
   }
 
   @include for-large-up {
@@ -116,7 +116,7 @@
 
   @include for-large-up {
     display: block;
-    border: 1px solid #2b292d;
+    border: 1px solid $black-color;
     width: 100%;
     margin: 0;
     opacity: 0.1;

@@ -142,8 +142,8 @@
 
     &-items:hover {
       @include for-large-up {
-        background-color: #3141c5;
-        color: #ffffff;
+        background-color: $blue-color;
+        color: $white-color;
         cursor: url(img_audience/pointer.png), pointer;
       }
     }
